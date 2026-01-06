@@ -1,9 +1,9 @@
 [Licensing::Module] Trying to connect to existing licensing client channel...
 Built from '6000.3/respin/6000.3.1f1-f56f53296c2c' branch; Version is '6000.3.1f1 (37142da19a94) revision 3609645'; Using compiler version '194234433'; Build Type 'Release'
-[Licensing::IpcConnector] Successfully connected to: "LicenseClient-User" at "2025-12-19T12:33:43.6956498Z"
 OS: 'Windows 11  (10.0.26100) 64bit Core' Language: 'pt' Physical Memory: 32361 MB
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1
-Date: 2025-12-19T12:33:43Z
+Date: 2026-01-06T02:09:14Z
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-User" at "2026-01-06T02:09:14.152738Z"
 
 COMMAND LINE ARGUMENTS:
 C:\Program Files\Unity\Hub\Editor\6000.3.1f1\Editor\Unity.exe
@@ -13,11 +13,11 @@ C:\Program Files\Unity\Hub\Editor\6000.3.1f1\Editor\Unity.exe
 -name
 AssetImportWorker0
 -projectPath
-C:/Users/User/Desktop/UNI/Maquete_JoãoReis_nº27917
+C:/Users/User/Documents/GitHub/Spell_VFX/Maquete_JoãoReis_nº27917
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-54037
+62519
 -licensingIpc
 LicenseClient-User
 -job-worker-count
@@ -28,8 +28,8 @@ LicenseClient-User
 1
 -name
 AssetImport
-Successfully changed project path to: C:/Users/User/Desktop/UNI/Maquete_JoãoReis_nº27917
-C:/Users/User/Desktop/UNI/Maquete_JoãoReis_nº27917
+Successfully changed project path to: C:/Users/User/Documents/GitHub/Spell_VFX/Maquete_JoãoReis_nº27917
+C:/Users/User/Documents/GitHub/Spell_VFX/Maquete_JoãoReis_nº27917
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
     "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
     "memorysetup-temp-allocator-size-audio-worker=65536"
@@ -65,12 +65,12 @@ C:/Users/User/Desktop/UNI/Maquete_JoãoReis_nº27917
     "memorysetup-job-temp-allocator-block-size-background=1048576"
     "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
     "memorysetup-temp-allocator-size-cloud-worker=32768"
-Player connection [11400]  Target information:
+Player connection [18552]  Target information:
 
-Player connection [11400]  * "[IP] 193.167.1.28 [Port] 0 [Flags] 2 [Guid] 3311143675 [EditorId] 3311143675 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-9BODUND) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+Player connection [18552]  * "[IP] 193.167.1.28 [Port] 0 [Flags] 2 [Guid] 2205680795 [EditorId] 2205680795 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-9BODUND) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
 
-Player connection [11400] Host joined multi-casting on [225.0.0.222:54997]...
-Player connection [11400] Host joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [18552] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [18552] Host joined alternative multi-casting on [225.0.0.222:34997]...
 JobSystem: Creating JobQueue using job-worker-count value 5
 Input System module state changed to: Initialized.
 [Physics::Module] Initialized fallback backend.
@@ -82,59 +82,59 @@ Library Redirect Path: Library/
 [Physics::Module] SDK Version: 4.1.2
 [Physics::Module] Integration Version: 1.0.0
 [Physics::Module] Threading Mode: Multi-Threaded
-Refreshing native plugins compatible for Editor in 2.32 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 2.59 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 6000.3.1f1 (37142da19a94)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/6000.3.1f1/Editor/Data/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path C:/Users/User/Desktop/UNI/Maquete_JoãoReis_nº27917/Assets
+[Subsystems] Discovering subsystems at path C:/Users/User/Documents/GitHub/Spell_VFX/Maquete_JoãoReis_nº27917/Assets
 GfxDevice: creating device client; kGfxThreadingModeNonThreaded
 Direct3D:
     Version:  Direct3D 11.0 [level 11.1]
     Renderer: NVIDIA GeForce RTX 5060 (ID=0x2d05)
     Vendor:   NVIDIA
     VRAM:     7895 MB
-    Driver:   32.0.15.9144
+    Driver:   32.0.15.9159
 Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/6000.3.1f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/6000.3.1f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/6000.3.1f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56392
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56468
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.3.1f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.001324 seconds.
-- Loaded All Assemblies, in  0.369 seconds
+Registered in 0.002149 seconds.
+- Loaded All Assemblies, in  0.426 seconds
 Native extension for WindowsStandalone target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.413 seconds
-Domain Reload Profiling: 780ms
-	BeginReloadAssembly (113ms)
+- Finished resetting the current domain, in  0.449 seconds
+Domain Reload Profiling: 873ms
+	BeginReloadAssembly (145ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (1ms)
-	RebuildCommonClasses (37ms)
-	RebuildNativeTypeToScriptingClass (14ms)
-	initialDomainReloadingComplete (42ms)
-	LoadAllAssembliesAndSetupDomain (162ms)
-		LoadAssemblies (111ms)
+	RebuildCommonClasses (38ms)
+	RebuildNativeTypeToScriptingClass (13ms)
+	initialDomainReloadingComplete (51ms)
+	LoadAllAssembliesAndSetupDomain (177ms)
+		LoadAssemblies (141ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (159ms)
-			TypeCache.Refresh (157ms)
-				TypeCache.ScanAssembly (143ms)
+		AnalyzeDomain (174ms)
+			TypeCache.Refresh (172ms)
+				TypeCache.ScanAssembly (158ms)
 			BuildScriptInfoCaches (0ms)
 			ResolveRequiredComponents (0ms)
-	FinalizeReload (413ms)
+	FinalizeReload (450ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (363ms)
+		SetupLoadedEditorAssemblies (397ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (43ms)
+			InitializePlatformSupportModulesInManaged (44ms)
 			SetLoadedEditorAssemblies (4ms)
-			BeforeProcessingInitializeOnLoad (88ms)
-			ProcessInitializeOnLoadAttributes (155ms)
-			ProcessInitializeOnLoadMethodAttributes (73ms)
+			BeforeProcessingInitializeOnLoad (96ms)
+			ProcessInitializeOnLoadAttributes (177ms)
+			ProcessInitializeOnLoadMethodAttributes (76ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -146,125 +146,1046 @@ Begin MonoManager ReloadAssembly
 [Licensing::Module] Licensing is not yet initialized.
 [Licensing::Client] Handshaking with LicensingClient:
   Version:                 1.17.4+4293ba1
-  Session Id:              a2cf30d6720f4382a677921c95c6d3d8
-  Correlation Id:          c7be85c9f9b3b67036f2fa1b2796de5c
-  External correlation Id: 4590873580163438704
+  Session Id:              f3283a60c1134ea399009a3056af72fe
+  Correlation Id:          ea405de42a6df4d8c6b9d1063c48495a
+  External correlation Id: 5396813170018273426
   Machine Id:              1JbwOrdAksQwViz4fekLYouCT3M=
-[Licensing::Module] Successfully connected to LicensingClient on channel: "LicenseClient-User" (connect: 0.00s, validation: 0.00s, handshake: 1.85s)
-[Licensing::IpcConnector] Successfully connected to: "LicenseClient-User-notifications" at "2025-12-19T12:33:45.5453377Z"
-[Licensing::Module] Licensing Background thread has ended after 1.85s
-[Licensing::Module] Licensing is initialized (took 0.27s).
+[Licensing::Module] Successfully connected to LicensingClient on channel: "LicenseClient-User" (connect: 0.00s, validation: 0.00s, handshake: 2.01s)
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-User-notifications" at "2026-01-06T02:09:16.1625831Z"
+[Licensing::Module] Licensing Background thread has ended after 2.01s
+[Licensing::Module] Licensing is initialized (took 0.20s).
 [Licensing::Client] Successfully resolved entitlement details
 [Licensing::Module] License group:
   Id: 6872734536027-UnityPersXXXX
   Product: Unity Personal
   Type: Assigned
   Expiration: Unlimited
-- Loaded All Assemblies, in  0.990 seconds
-Refreshing native plugins compatible for Editor in 0.55 ms, found 3 plugins.
+- Loaded All Assemblies, in  1.003 seconds
+Refreshing native plugins compatible for Editor in 0.98 ms, found 3 plugins.
 Native extension for WindowsStandalone target not found
 Package Manager log level set to [2]
 [Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
 [Package Manager] Unable to send message (not connected to server process).
 [Package Manager] Cannot connect to Unity Package Manager local server
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.685 seconds
-Domain Reload Profiling: 1671ms
-	BeginReloadAssembly (434ms)
+- Finished resetting the current domain, in  0.683 seconds
+Domain Reload Profiling: 1681ms
+	BeginReloadAssembly (374ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (5ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (35ms)
-	RebuildCommonClasses (33ms)
-	RebuildNativeTypeToScriptingClass (12ms)
-	initialDomainReloadingComplete (31ms)
-	LoadAllAssembliesAndSetupDomain (476ms)
-		LoadAssemblies (296ms)
+		CreateAndSetChildDomain (37ms)
+	RebuildCommonClasses (34ms)
+	RebuildNativeTypeToScriptingClass (13ms)
+	initialDomainReloadingComplete (35ms)
+	LoadAllAssembliesAndSetupDomain (543ms)
+		LoadAssemblies (376ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (263ms)
-			TypeCache.Refresh (204ms)
-				TypeCache.ScanAssembly (191ms)
-			BuildScriptInfoCaches (47ms)
-			ResolveRequiredComponents (9ms)
-	FinalizeReload (685ms)
+		AnalyzeDomain (257ms)
+			TypeCache.Refresh (199ms)
+				TypeCache.ScanAssembly (186ms)
+			BuildScriptInfoCaches (46ms)
+			ResolveRequiredComponents (8ms)
+	FinalizeReload (683ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (507ms)
+		SetupLoadedEditorAssemblies (515ms)
 			LogAssemblyErrors (0ms)
 			InitializePlatformSupportModulesInManaged (2ms)
 			SetLoadedEditorAssemblies (4ms)
-			BeforeProcessingInitializeOnLoad (128ms)
-			ProcessInitializeOnLoadAttributes (315ms)
-			ProcessInitializeOnLoadMethodAttributes (55ms)
-			AfterProcessingInitializeOnLoad (4ms)
+			BeforeProcessingInitializeOnLoad (134ms)
+			ProcessInitializeOnLoadAttributes (320ms)
+			ProcessInitializeOnLoadMethodAttributes (51ms)
+			AfterProcessingInitializeOnLoad (5ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (6ms)
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.01 seconds
-Refreshing native plugins compatible for Editor in 0.84 ms, found 3 plugins.
+		AwakeInstancesAfterBackupRestoration (5ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.02 seconds
+Refreshing native plugins compatible for Editor in 1.46 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 22 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 6942 unused Assets / (5.2 MB). Loaded Objects now: 7772.
-Memory consumption went from 159.4 MB to 154.2 MB.
-Total: 11.942500 ms (FindLiveObjects: 1.212400 ms CreateObjectMapping: 1.390000 ms MarkObjects: 6.576900 ms  DeleteObjects: 2.761800 ms)
+Unloading 6942 unused Assets / (6.3 MB). Loaded Objects now: 7761.
+Memory consumption went from 156.2 MB to 149.9 MB.
+Total: 17.459800 ms (FindLiveObjects: 1.888100 ms CreateObjectMapping: 1.363100 ms MarkObjects: 10.252800 ms  DeleteObjects: 3.954400 ms)
 
 ========================================================================
 Received Import Request.
-  Time since last request: 36863.209236 seconds.
-  path: Assets/Prefabs/SpellProjectile.prefab
-  artifactKey: Guid(2ab75c166c88f0541b9cdbaafa6c73ad) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Prefabs/SpellProjectile.prefab using Guid(2ab75c166c88f0541b9cdbaafa6c73ad) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '7477fccb9e839f09dab62629530b511e') in 0.0943773 seconds
+  Time since last request: 94556.016946 seconds.
+  path: Assets/Scripts/SpellProjectile.cs
+  artifactKey: Guid(ea50acbc4f122d741b3005c0684ee7ea) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Scripts/SpellProjectile.cs using Guid(ea50acbc4f122d741b3005c0684ee7ea) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '6ef155e3192809e28123b1fad9781a65') in 0.1071437 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/TextMesh Pro/Sprites/EmojiOne.png
+  artifactKey: Guid(dffef66376be4fa480fb02b19edbe903) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/TextMesh Pro/Sprites/EmojiOne.png using Guid(dffef66376be4fa480fb02b19edbe903) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '8304ea0e7964ce6dfabb483da8e99a3a') in 0.0645834 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Player/Attack.anim
+  artifactKey: Guid(f908fc9a91db29d4ebfa5a4a38826a48) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Player/Attack.anim using Guid(f908fc9a91db29d4ebfa5a4a38826a48) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'b04180f35f9da0358b7b6cbd9ffc438d') in 0.0176878 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Outline.mat
+  artifactKey: Guid(79459efec17a4d00a321bdcc27bbc385) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Outline.mat using Guid(79459efec17a4d00a321bdcc27bbc385) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '3b53eab093df522c6354b7ca0ffff278') in 0.0293633 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/New Universal Render Pipeline Asset_Renderer.asset
+  artifactKey: Guid(f2aee9dd871a735449176cc7099b4675) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/New Universal Render Pipeline Asset_Renderer.asset using Guid(f2aee9dd871a735449176cc7099b4675) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '8d65643a5624fb0bd52f8dc4c462a334') in 0.0393978 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Textures/trail3.png
+  artifactKey: Guid(11c24ffdf1635c4438bf7145b7f4b69c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Textures/trail3.png using Guid(11c24ffdf1635c4438bf7145b7f4b69c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '36b245944f31378df02eae6beaf42db9') in 0.0150235 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/Player/Player.cs
+  artifactKey: Guid(81cc2c24efe04ea4e82be07d29055f09) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Player/Player.cs using Guid(81cc2c24efe04ea4e82be07d29055f09) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '685b7b69461e10e3a434bacc962ff5a8') in 0.0117411 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Samples/Scriptable Render Pipeline Core/17.3.0/Common/Materials/Samples_Tripod.mat
+  artifactKey: Guid(d1b53c92617276f47b152a914d759d9b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Samples/Scriptable Render Pipeline Core/17.3.0/Common/Materials/Samples_Tripod.mat using Guid(d1b53c92617276f47b152a914d759d9b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '653805c48fc9928bb34ed0e2f21bad56') in 0.180917 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Samples/Scriptable Render Pipeline Core/17.3.0/Common/Models/UnityMaterialBall.fbx
+  artifactKey: Guid(dbf213621aa684e458812b1232360659) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Samples/Scriptable Render Pipeline Core/17.3.0/Common/Models/UnityMaterialBall.fbx using Guid(dbf213621aa684e458812b1232360659) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '43706d869d61147d767c459f94644130') in 0.041991 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 63
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Samples/Scriptable Render Pipeline Core/17.3.0/Common/Materials/SamplesRoughBlack.mat
+  artifactKey: Guid(519c06b70a5dfe94988ab6fe98d7405a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Samples/Scriptable Render Pipeline Core/17.3.0/Common/Materials/SamplesRoughBlack.mat using Guid(519c06b70a5dfe94988ab6fe98d7405a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '7297c87e8f9567fc7de9c53f5a149587') in 0.14379 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/New Universal Render Pipeline Asset.asset
+  artifactKey: Guid(d1968546b60c3a942bd798597ede815b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/New Universal Render Pipeline Asset.asset using Guid(d1968546b60c3a942bd798597ede815b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '6e4e598fc1194775ee03fbf7a1836a3c') in 0.0387801 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Tutorials/InstantiateObjectTutorial/TestFireAttackExplosion.prefab
+  artifactKey: Guid(42d0fbea8813689489ed134319131a4a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Tutorials/InstantiateObjectTutorial/TestFireAttackExplosion.prefab using Guid(42d0fbea8813689489ed134319131a4a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '8c9485a90cc2415e7154b3e82ac02fe9') in 0.023589 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 13
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Tutorials/InstantiateObjectTutorial/AttackScript.cs
+  artifactKey: Guid(72fbdb964f030834498061ede7e0b04f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Tutorials/InstantiateObjectTutorial/AttackScript.cs using Guid(72fbdb964f030834498061ede7e0b04f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '3c857b13f81bec48a1388454d98b3046') in 0.0124002 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Samples/Scriptable Render Pipeline Core/17.3.0/Common/Materials/Samples_BlackPaint.mat
+  artifactKey: Guid(735e5139c2106f54096a4ebbeea42ac7) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Samples/Scriptable Render Pipeline Core/17.3.0/Common/Materials/Samples_BlackPaint.mat using Guid(735e5139c2106f54096a4ebbeea42ac7) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'a88b5dc3ed0daf8a65e7fb199b39281e') in 0.0147941 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Samples/Scriptable Render Pipeline Core/17.3.0/Common/Materials/Samples_Curtain.mat
+  artifactKey: Guid(3619d3635b32e074093e20a11daf1aa3) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Samples/Scriptable Render Pipeline Core/17.3.0/Common/Materials/Samples_Curtain.mat using Guid(3619d3635b32e074093e20a11daf1aa3) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '6e70cdff57d7977d55fcd56dda24f599') in 0.1383981 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Samples/Visual Effect Graph/17.3.0/Learning Templates/Meshes/ST_Eye_Monster.fbx
+  artifactKey: Guid(83aa1803a222fff43a016070240b64f3) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Samples/Visual Effect Graph/17.3.0/Learning Templates/Meshes/ST_Eye_Monster.fbx using Guid(83aa1803a222fff43a016070240b64f3) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '37e2903c67547209a63f9362a0b9bec0') in 0.0207149 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Samples/Visual Effect Graph/17.3.0/Learning Templates/Meshes/Hoodie.fbx
+  artifactKey: Guid(c5b75bc46953f634b8ab4513a8f7f48b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Samples/Visual Effect Graph/17.3.0/Learning Templates/Meshes/Hoodie.fbx using Guid(c5b75bc46953f634b8ab4513a8f7f48b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '511b0fb7a7a5fb1decd4a2bf499ee7ca') in 0.031197 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 212
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Samples/Visual Effect Graph/17.3.0/Learning Templates/Meshes/ST_FXBase_Cone.fbx
+  artifactKey: Guid(55bf8462b5d757040a94ea688952a70e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Samples/Visual Effect Graph/17.3.0/Learning Templates/Meshes/ST_FXBase_Cone.fbx using Guid(55bf8462b5d757040a94ea688952a70e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '6f474261d63fbc3b3de883056706a1af') in 0.0158426 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/Samples/Visual Effect Graph/17.3.0/Learning Templates/Meshes/MushRoom_Head.fbx
+  artifactKey: Guid(32549946a8ad1ec4f9473112610c7bd7) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Samples/Visual Effect Graph/17.3.0/Learning Templates/Meshes/MushRoom_Head.fbx using Guid(32549946a8ad1ec4f9473112610c7bd7) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'd5f6cf547b769f5c610f7e5bd4c89969') in 0.014129 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Samples/Scriptable Render Pipeline Core/17.3.0/Common/Materials/SamplesFixtureEmissive.mat
+  artifactKey: Guid(73c28ce5f256d4b4abbda3e19a4552d7) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Samples/Scriptable Render Pipeline Core/17.3.0/Common/Materials/SamplesFixtureEmissive.mat using Guid(73c28ce5f256d4b4abbda3e19a4552d7) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '94b96668b2e8720590509918aa45d631') in 0.1413874 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Samples/Scriptable Render Pipeline Core/17.3.0/Common/Models/SamplesFixture.fbx
+  artifactKey: Guid(f1173d56c7fbad54b8b0ededcdac25c9) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Samples/Scriptable Render Pipeline Core/17.3.0/Common/Models/SamplesFixture.fbx using Guid(f1173d56c7fbad54b8b0ededcdac25c9) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'dcdccd1d29fd4485c6ccb0ebb5e57ec4') in 0.0227223 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Tutorials/InstantiateObjectTutorial/ObjectInstantiator.cs
+  artifactKey: Guid(8d1d9eff033515743bf18d4350470bae) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Tutorials/InstantiateObjectTutorial/ObjectInstantiator.cs using Guid(8d1d9eff033515743bf18d4350470bae) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '5f391e7c6248d09232781de7116a6150') in 0.0120902 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Samples/Visual Effect Graph/17.3.0/Learning Templates/Shaders/SG_Hand.shadergraph
+  artifactKey: Guid(1a75760eafd771844a9930bf6651ed40) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Samples/Visual Effect Graph/17.3.0/Learning Templates/Shaders/SG_Hand.shadergraph using Guid(1a75760eafd771844a9930bf6651ed40) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '087a422d03da12ddf9ef1f7561feef4c') in 0.0208049 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 6
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Samples/Visual Effect Graph/17.3.0/Learning Templates/Shaders/SG_Dart.shadergraph
+  artifactKey: Guid(331b7aa3214267b48b691891b04fa18c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Samples/Visual Effect Graph/17.3.0/Learning Templates/Shaders/SG_Dart.shadergraph using Guid(331b7aa3214267b48b691891b04fa18c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '570f5908dcecc94ad27a6d8ed4ad7711') in 0.0156274 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 6
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Samples/Visual Effect Graph/17.3.0/Learning Templates/Meshes/ST_Tube.fbx
+  artifactKey: Guid(cfb21f1f647f04e40953a7c0980db81c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Samples/Visual Effect Graph/17.3.0/Learning Templates/Meshes/ST_Tube.fbx using Guid(cfb21f1f647f04e40953a7c0980db81c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'f2f336a800900ec3cdd53420956d2ca9') in 0.0181342 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Samples/Visual Effect Graph/17.3.0/Learning Templates/Shaders/M_SoundSystem.mat
+  artifactKey: Guid(47bca4c71d319354387bb396122663e4) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Samples/Visual Effect Graph/17.3.0/Learning Templates/Shaders/M_SoundSystem.mat using Guid(47bca4c71d319354387bb396122663e4) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '7eba4515f52d46fb2133616ac70212ed') in 0.0149877 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Samples/Visual Effect Graph/17.3.0/Learning Templates/Shaders/SG_DecalHead.shadergraph
+  artifactKey: Guid(402904fec7b70854cb19199e41e7c35c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Samples/Visual Effect Graph/17.3.0/Learning Templates/Shaders/SG_DecalHead.shadergraph using Guid(402904fec7b70854cb19199e41e7c35c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '5596f5ebb00ddac970aa737e3bacce9e') in 0.0142786 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 5
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Player/Idle.anim
+  artifactKey: Guid(e29e130e4813a4d4bb9c9abb41d4ba97) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Player/Idle.anim using Guid(e29e130e4813a4d4bb9c9abb41d4ba97) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '91c5823d3579e1bfc2a44aac65fb5986') in 0.0119904 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Samples/Visual Effect Graph/17.3.0/Common/Shaders/SG_VFXG_Logo.shadergraph
+  artifactKey: Guid(88bc09b14d559e74498ff1f6f39eea59) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Samples/Visual Effect Graph/17.3.0/Common/Shaders/SG_VFXG_Logo.shadergraph using Guid(88bc09b14d559e74498ff1f6f39eea59) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '5f4bd9e147708b75e6af988709ba0e10') in 0.0132587 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 5
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Prefabs/Spell.prefab
+  artifactKey: Guid(ae2c30c1660dacf45b8102a4ec42dc3f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Prefabs/Spell.prefab using Guid(ae2c30c1660dacf45b8102a4ec42dc3f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'c6510d9b472c400c5c8ced4ec4e175a5') in 0.0166883 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 18
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Samples/Scriptable Render Pipeline Core/17.3.0/Common/Materials/Samples_Platform.mat
+  artifactKey: Guid(25a9739d74f47314c9cd2d850a5357c0) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Samples/Scriptable Render Pipeline Core/17.3.0/Common/Materials/Samples_Platform.mat using Guid(25a9739d74f47314c9cd2d850a5357c0) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'c8f2e57c0e06aaf7c8b793a84f8f95b1') in 0.015398 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Samples/Visual Effect Graph/17.3.0/Common/Prefabs/VFX_SceneTemplate_AbstractBlue_URP.prefab
+  artifactKey: Guid(63ef69b6e69aad54ea304569805239cb) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Samples/Visual Effect Graph/17.3.0/Common/Prefabs/VFX_SceneTemplate_AbstractBlue_URP.prefab using Guid(63ef69b6e69aad54ea304569805239cb) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '65690ef80cf31f67712c5a9ed756861c') in 0.0175251 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 28
 
 ========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.512 seconds
-Refreshing native plugins compatible for Editor in 0.47 ms, found 3 plugins.
-Native extension for WindowsStandalone target not found
-[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] Unable to send message (not connected to server process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.501 seconds
-Domain Reload Profiling: 1014ms
-	BeginReloadAssembly (157ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (4ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (44ms)
-	RebuildCommonClasses (24ms)
-	RebuildNativeTypeToScriptingClass (10ms)
-	initialDomainReloadingComplete (17ms)
-	LoadAllAssembliesAndSetupDomain (305ms)
-		LoadAssemblies (219ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (144ms)
-			TypeCache.Refresh (5ms)
-				TypeCache.ScanAssembly (0ms)
-			BuildScriptInfoCaches (128ms)
-			ResolveRequiredComponents (8ms)
-	FinalizeReload (502ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (387ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (1ms)
-			SetLoadedEditorAssemblies (4ms)
-			BeforeProcessingInitializeOnLoad (102ms)
-			ProcessInitializeOnLoadAttributes (230ms)
-			ProcessInitializeOnLoadMethodAttributes (47ms)
-			AfterProcessingInitializeOnLoad (3ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (13ms)
-Refreshing native plugins compatible for Editor in 0.72 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 17 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 6940 unused Assets / (5.2 MB). Loaded Objects now: 7791.
-Memory consumption went from 164.7 MB to 159.5 MB.
-Total: 8.216200 ms (FindLiveObjects: 0.736400 ms CreateObjectMapping: 0.595500 ms MarkObjects: 4.768800 ms  DeleteObjects: 2.114800 ms)
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Samples/Visual Effect Graph/17.3.0/Learning Templates/Shaders/SG_Pool.shadergraph
+  artifactKey: Guid(98752986824ecd644bb549c0c097be31) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Samples/Visual Effect Graph/17.3.0/Learning Templates/Shaders/SG_Pool.shadergraph using Guid(98752986824ecd644bb549c0c097be31) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '044a17fc4427383d34a3433a9d3f9245') in 0.0136077 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 5
 
-Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Samples/Visual Effect Graph/17.3.0/Learning Templates/Shaders/SG_SandSkirt.shadergraph
+  artifactKey: Guid(2762afc0fb7929c488c2a81837857a49) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Samples/Visual Effect Graph/17.3.0/Learning Templates/Shaders/SG_SandSkirt.shadergraph using Guid(2762afc0fb7929c488c2a81837857a49) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '8d360c9bfbf203b461849a4dfe2ee922') in 0.0192038 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 5
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Samples/Visual Effect Graph/17.3.0/Learning Templates/Shaders/SG_Eyes_XSRP.shadergraph
+  artifactKey: Guid(ef96eedf8e05b7149bc57885fb34e62e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Samples/Visual Effect Graph/17.3.0/Learning Templates/Shaders/SG_Eyes_XSRP.shadergraph using Guid(ef96eedf8e05b7149bc57885fb34e62e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'a6f195e92081674a9ddbda1ee63b7b23') in 0.0151459 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 6
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile Masking.shader
+  artifactKey: Guid(bc1ede39bf3643ee8e493720e4259791) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile Masking.shader using Guid(bc1ede39bf3643ee8e493720e4259791) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'bc58bd525b14a0aa0d08af6032883558') in 0.0119943 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Textures/Texture2trail.png
+  artifactKey: Guid(b58498d1f5f468049a8f77a43e3e4eb0) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Textures/Texture2trail.png using Guid(b58498d1f5f468049a8f77a43e3e4eb0) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '3576a372a4bf3eba10e34f1790be14c6') in 0.012911 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Samples/Scriptable Render Pipeline Core/17.3.0/Common/Models/SamplesSpotlightModel.fbx
+  artifactKey: Guid(2acc7de351f16524395e7e9239e010f4) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Samples/Scriptable Render Pipeline Core/17.3.0/Common/Models/SamplesSpotlightModel.fbx using Guid(2acc7de351f16524395e7e9239e010f4) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'cd06b7e645d06e9c66a350755c684586') in 0.0195575 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 42
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Samples/Visual Effect Graph/17.3.0/Common/Prefabs/VFX_URP_Camera.prefab
+  artifactKey: Guid(719615f492dfced46be67a250bc49568) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Samples/Visual Effect Graph/17.3.0/Common/Prefabs/VFX_URP_Camera.prefab using Guid(719615f492dfced46be67a250bc49568) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'ed1713cac3044558b78e64b5ee74ad48') in 0.0252976 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Textures/Voronoi.png
+  artifactKey: Guid(5cd66cd7072fd9445902c95e24c7133d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Textures/Voronoi.png using Guid(5cd66cd7072fd9445902c95e24c7133d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'fdbfb0b5580e4484208cb5cf6cfe229b') in 0.0154109 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Samples/Scriptable Render Pipeline Core/17.3.0/Common/Scripts/AlignSceneView.cs
+  artifactKey: Guid(6dac9292e94438546aa9801a7d4cbfd1) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Samples/Scriptable Render Pipeline Core/17.3.0/Common/Scripts/AlignSceneView.cs using Guid(6dac9292e94438546aa9801a7d4cbfd1) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'e28d34fa7aaa73fe1449d4174cf5bdbc') in 0.0111526 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Samples/Visual Effect Graph/17.3.0/Learning Templates/Textures/TX_Football_D.png
+  artifactKey: Guid(6b19f8ecb1fb928499b0953d7696f821) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Samples/Visual Effect Graph/17.3.0/Learning Templates/Textures/TX_Football_D.png using Guid(6b19f8ecb1fb928499b0953d7696f821) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '8db687eddf7897618f16f4859d84ab1e') in 0.0165126 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Samples/Visual Effect Graph/17.3.0/Learning Templates/Thumbnails/Thumb_Collision Simple.png
+  artifactKey: Guid(de6ccea3a4ae74245b8f069b29a51210) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Samples/Visual Effect Graph/17.3.0/Learning Templates/Thumbnails/Thumb_Collision Simple.png using Guid(de6ccea3a4ae74245b8f069b29a51210) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'a6ec0d575ebfad90fb5688f8aa1f6e71') in 0.0147862 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Samples/Visual Effect Graph/17.3.0/Learning Templates/Textures/TX_Leafs_3x3_N.png
+  artifactKey: Guid(cfd1f5fe17f59514dbbc94e370184250) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Samples/Visual Effect Graph/17.3.0/Learning Templates/Textures/TX_Leafs_3x3_N.png using Guid(cfd1f5fe17f59514dbbc94e370184250) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '998bea2ecba0dff93f13212dbce92711') in 0.014416 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Samples/Visual Effect Graph/17.3.0/Learning Templates/Textures/TX_Leafs_3x3_R.png
+  artifactKey: Guid(502167c0fe3db1d42af015dd3f8d8c18) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Samples/Visual Effect Graph/17.3.0/Learning Templates/Textures/TX_Leafs_3x3_R.png using Guid(502167c0fe3db1d42af015dd3f8d8c18) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '1e4673a86db5ffcd09722182893e32af') in 0.0161838 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/Samples/Visual Effect Graph/17.3.0/Learning Templates/Textures/TX_Chomper_Feather_A.png
+  artifactKey: Guid(314896f5a87a0a0408df72564ba2f050) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Samples/Visual Effect Graph/17.3.0/Learning Templates/Textures/TX_Chomper_Feather_A.png using Guid(314896f5a87a0a0408df72564ba2f050) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '6f34a374da843ec5be8074e9a9f62f9c') in 0.015102 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Samples/Visual Effect Graph/17.3.0/Learning Templates/Textures/Tube_A.png
+  artifactKey: Guid(3649d04bae99a754f8be616186a5709e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Samples/Visual Effect Graph/17.3.0/Learning Templates/Textures/Tube_A.png using Guid(3649d04bae99a754f8be616186a5709e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '62d795213249e37748136c5de233a81b') in 0.0121954 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/Samples/Visual Effect Graph/17.3.0/Learning Templates/Textures/TX_Hoodie_N.png
+  artifactKey: Guid(b54d7adafa14b6441a3fe8d45967fe23) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Samples/Visual Effect Graph/17.3.0/Learning Templates/Textures/TX_Hoodie_N.png using Guid(b54d7adafa14b6441a3fe8d45967fe23) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'dc01a8e3e0a10768827f43fff8dbd23d') in 0.0134904 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Samples/Visual Effect Graph/17.3.0/Learning Templates/Textures/TX_Flipbook_CandleFlame.png
+  artifactKey: Guid(5ec21764a843e414197a40a58f39cf95) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Samples/Visual Effect Graph/17.3.0/Learning Templates/Textures/TX_Flipbook_CandleFlame.png using Guid(5ec21764a843e414197a40a58f39cf95) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'a468ca69d88a641dc9f33695e9624438') in 0.0137369 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Samples/Scriptable Render Pipeline Core/17.3.0/Common/Models/UnityLogo.fbx
+  artifactKey: Guid(ce956971d4da74746ad62e303cc5ce09) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Samples/Scriptable Render Pipeline Core/17.3.0/Common/Models/UnityLogo.fbx using Guid(ce956971d4da74746ad62e303cc5ce09) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '38ebeaf0b3293ebe78c46bbf5c46acde') in 0.0167988 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Samples/Visual Effect Graph/17.3.0/Common/Textures/TX_Chomper_mask.tga
+  artifactKey: Guid(7f77aaf6c496a944eb655692e44a7cf4) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Samples/Visual Effect Graph/17.3.0/Common/Textures/TX_Chomper_mask.tga using Guid(7f77aaf6c496a944eb655692e44a7cf4) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '48c3dab73fc0b84962786087a6cfaf76') in 0.0139903 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Samples/Visual Effect Graph/17.3.0/Learning Templates/Shaders/SG_Hoodie.shadergraph
+  artifactKey: Guid(8364aeedaefad0449a1868f80da99d30) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Samples/Visual Effect Graph/17.3.0/Learning Templates/Shaders/SG_Hoodie.shadergraph using Guid(8364aeedaefad0449a1868f80da99d30) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '22096dd315bdfb306d956d3d6bbdd394') in 0.0127144 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/Samples/Visual Effect Graph/17.3.0/Learning Templates/Thumbnails/Thumb_MultiStrip_GPU.png
+  artifactKey: Guid(1e7dce32229b8194691947a4f42f7b70) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Samples/Visual Effect Graph/17.3.0/Learning Templates/Thumbnails/Thumb_MultiStrip_GPU.png using Guid(1e7dce32229b8194691947a4f42f7b70) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '2f03da0f0ac88a55e65a50e65ba67560') in 0.0124981 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Samples/Visual Effect Graph/17.3.0/Learning Templates/Thumbnails/Thumb_Pivot Attribute.png
+  artifactKey: Guid(f297419265452a34ab1ce86a44ca54f4) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Samples/Visual Effect Graph/17.3.0/Learning Templates/Thumbnails/Thumb_Pivot Attribute.png using Guid(f297419265452a34ab1ce86a44ca54f4) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'c83c0a90f70ee566e41553f26ca3f0de') in 0.0138461 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Samples/Visual Effect Graph/17.3.0/Learning Templates/VFX/AngularVelocity.vfx
+  artifactKey: Guid(0716daebd7b426f478f6dc430926c3b8) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Samples/Visual Effect Graph/17.3.0/Learning Templates/VFX/AngularVelocity.vfx using Guid(0716daebd7b426f478f6dc430926c3b8) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '40d9c39c740543168183038725bc71d4') in 0.0247774 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 20
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Samples/Visual Effect Graph/17.3.0/Learning Templates/VFX/BoundsGizmo.vfx
+  artifactKey: Guid(f023ef5f170adc34180abdbd65838179) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Samples/Visual Effect Graph/17.3.0/Learning Templates/VFX/BoundsGizmo.vfx using Guid(f023ef5f170adc34180abdbd65838179) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '48650bdcf9a3bdaf8863b4aacfe4994e') in 0.0156743 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/TextMesh Pro/Resources/Style Sheets/Default Style Sheet.asset
+  artifactKey: Guid(f952c082cb03451daed3ee968ac6c63e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/TextMesh Pro/Resources/Style Sheets/Default Style Sheet.asset using Guid(f952c082cb03451daed3ee968ac6c63e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '7fea2b37a97939a048624dbb7a3b067d') in 0.0105953 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Samples/Visual Effect Graph/17.3.0/Learning Templates/Thumbnails/Thumb_Decal Particles.png
+  artifactKey: Guid(79996b38f37551f40bad61027b8f1e0b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Samples/Visual Effect Graph/17.3.0/Learning Templates/Thumbnails/Thumb_Decal Particles.png using Guid(79996b38f37551f40bad61027b8f1e0b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'e062a5d07b114166c7426fbdbb63e907') in 0.0132805 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Samples/Visual Effect Graph/17.3.0/Learning Templates/Thumbnails/Thumb_Flipbook Mode.png
+  artifactKey: Guid(519de46f323653c4ba92a6e1c1ac56df) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Samples/Visual Effect Graph/17.3.0/Learning Templates/Thumbnails/Thumb_Flipbook Mode.png using Guid(519de46f323653c4ba92a6e1c1ac56df) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'ee476eacdf6676b4c2d44ca37f81e66b') in 0.014532 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/Samples/Visual Effect Graph/17.3.0/Learning Templates/Thumbnails/Thumb_Orient Fixed Axis.png
+  artifactKey: Guid(04febbab5a711e04aa699f6fd56723c8) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Samples/Visual Effect Graph/17.3.0/Learning Templates/Thumbnails/Thumb_Orient Fixed Axis.png using Guid(04febbab5a711e04aa699f6fd56723c8) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'd3d0f962d2526f806d1617c947cc6d16') in 0.0129804 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Samples/Visual Effect Graph/17.3.0/Learning Templates/Thumbnails/Thumb_Sample Skinned Mesh.png
+  artifactKey: Guid(57b45e399d8fe394a98a5675906c287d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Samples/Visual Effect Graph/17.3.0/Learning Templates/Thumbnails/Thumb_Sample Skinned Mesh.png using Guid(57b45e399d8fe394a98a5675906c287d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '0cfc140d9b0e39e5a25e0d60d319a06d') in 0.0150064 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Samples/Visual Effect Graph/17.3.0/Learning Templates/Textures/TX_Chomper_Feather_N.tga
+  artifactKey: Guid(eee553df529b4664a9988dcb5ce5aec2) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Samples/Visual Effect Graph/17.3.0/Learning Templates/Textures/TX_Chomper_Feather_N.tga using Guid(eee553df529b4664a9988dcb5ce5aec2) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '6972ee4cb75c60406c3ded2e779fee8f') in 0.0145994 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/Samples/Visual Effect Graph/17.3.0/Learning Templates/Textures/TX_Leafs_3x3_D.png
+  artifactKey: Guid(6256393ddb4bbc04594a1155c2e31cbc) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Samples/Visual Effect Graph/17.3.0/Learning Templates/Textures/TX_Leafs_3x3_D.png using Guid(6256393ddb4bbc04594a1155c2e31cbc) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '990f3cbc6694d1ebd5f576f38c898432') in 0.012638 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Samples/Visual Effect Graph/17.3.0/Learning Templates/VFX/FlipbookBlending.vfx
+  artifactKey: Guid(a977458597c62ae48aca0c6ba7674959) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Samples/Visual Effect Graph/17.3.0/Learning Templates/VFX/FlipbookBlending.vfx using Guid(a977458597c62ae48aca0c6ba7674959) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '47d97f85caee15e6ee3180251d0201db') in 0.0155528 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Samples/Visual Effect Graph/17.3.0/Learning Templates/VFX/MultiStripGPUEvents.vfx
+  artifactKey: Guid(09e4dfff658c863459dc084250a47a15) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Samples/Visual Effect Graph/17.3.0/Learning Templates/VFX/MultiStripGPUEvents.vfx using Guid(09e4dfff658c863459dc084250a47a15) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '1ffeaec1b0950869868c9f20ef2784a5') in 0.0215194 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 19
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Samples/Visual Effect Graph/17.3.0/Learning Templates/VFX/SampleSDF.vfx
+  artifactKey: Guid(835e76cc0c1f8e54581052d7c111c058) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Samples/Visual Effect Graph/17.3.0/Learning Templates/VFX/SampleSDF.vfx using Guid(835e76cc0c1f8e54581052d7c111c058) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '907733e53b8a3dbe435433551a61c039') in 0.0205725 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Samples/Visual Effect Graph/17.3.0/Learning Templates/VFX/StripGPUEvent.vfx
+  artifactKey: Guid(df1e474b859146a4cb64910d1405926d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Samples/Visual Effect Graph/17.3.0/Learning Templates/VFX/StripGPUEvent.vfx using Guid(df1e474b859146a4cb64910d1405926d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '13c9774ed22e059dbc221217ecf42e25') in 0.0244567 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 19
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Samples/Visual Effect Graph/17.3.0/Learning Templates/VFX/StripProperties.vfx
+  artifactKey: Guid(db2d8637cfa4fab4082fc079f1f26b14) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Samples/Visual Effect Graph/17.3.0/Learning Templates/VFX/StripProperties.vfx using Guid(db2d8637cfa4fab4082fc079f1f26b14) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'db5f880a60f6c4a8f292b884c49d099b') in 0.0215854 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 26
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Samples/Visual Effect Graph/17.3.0/Learning Templates/VFX/PivotAttribute.vfx
+  artifactKey: Guid(1edd86e27000c234fb781ca4a6682571) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Samples/Visual Effect Graph/17.3.0/Learning Templates/VFX/PivotAttribute.vfx using Guid(1edd86e27000c234fb781ca4a6682571) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'fd90e954b0daaf0cb53ca422e3a0e0c0') in 0.0165336 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 11
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Samples/Scriptable Render Pipeline Core/17.3.0/Common/Materials/Shaders/SamplesChecker.shadergraph
+  artifactKey: Guid(12b97e20ea15a7844849d66169c21bed) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Samples/Scriptable Render Pipeline Core/17.3.0/Common/Materials/Shaders/SamplesChecker.shadergraph using Guid(12b97e20ea15a7844849d66169c21bed) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '32df5c8dd16c261986b3754022de9429') in 0.1433457 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 6
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Samples/Scriptable Render Pipeline Core/17.3.0/Common/Prefabs/Info/Arrow.prefab
+  artifactKey: Guid(86af9fba10b3af04fb4791ef9f8be85e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Samples/Scriptable Render Pipeline Core/17.3.0/Common/Prefabs/Info/Arrow.prefab using Guid(86af9fba10b3af04fb4791ef9f8be85e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '364b1454fe93fd126248e34633652dfe') in 0.0200208 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Samples/Scriptable Render Pipeline Core/17.3.0/Common/Prefabs/UnityBall/UnityMaterialBall_Black.prefab
+  artifactKey: Guid(ed4d7156b7ecb474aa517b8e1ad366ac) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Samples/Scriptable Render Pipeline Core/17.3.0/Common/Prefabs/UnityBall/UnityMaterialBall_Black.prefab using Guid(ed4d7156b7ecb474aa517b8e1ad366ac) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '913381e211acfeb1e093663d49dae418') in 0.0127286 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 63
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Samples/Scriptable Render Pipeline Core/17.3.0/Common/Prefabs/Info/NameHolder.prefab
+  artifactKey: Guid(9bae1c88b1d7a854b9257ec9639f0bfb) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Samples/Scriptable Render Pipeline Core/17.3.0/Common/Prefabs/Info/NameHolder.prefab using Guid(9bae1c88b1d7a854b9257ec9639f0bfb) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '742d0a75f4d384d9e3de638e1b79a501') in 0.0632103 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 15
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Samples/Scriptable Render Pipeline Core/17.3.0/Common/Prefabs/Presentation/Platform.prefab
+  artifactKey: Guid(8c286bfd53914ce45b4d9eeaa086f505) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Samples/Scriptable Render Pipeline Core/17.3.0/Common/Prefabs/Presentation/Platform.prefab using Guid(8c286bfd53914ce45b4d9eeaa086f505) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'd0499ae09f4fb29117f54385c826bad8') in 0.014827 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 43
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Samples/Scriptable Render Pipeline Core/17.3.0/Common/Materials/Shaders/SamplesTurntable.shadergraph
+  artifactKey: Guid(daae7dca060ff1344bf7d7e511e0e961) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Samples/Scriptable Render Pipeline Core/17.3.0/Common/Materials/Shaders/SamplesTurntable.shadergraph using Guid(daae7dca060ff1344bf7d7e511e0e961) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '2c4e263ce11ed863ede2efd057ccde7d') in 0.1403235 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 6
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Samples/Visual Effect Graph/17.3.0/Learning Templates/Thumbnails/Thumb_Pivot Advanced.png
+  artifactKey: Guid(29251384520d95f4fa010437bf43287e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Samples/Visual Effect Graph/17.3.0/Learning Templates/Thumbnails/Thumb_Pivot Advanced.png using Guid(29251384520d95f4fa010437bf43287e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '6589e306779c76233ce6e09a1a0df45d') in 0.0149719 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Samples/Visual Effect Graph/17.3.0/Learning Templates/Prefabs/VFXG/Contexts & Data Flow.prefab
+  artifactKey: Guid(4d8073d0ef011eb438162e15c7adf9e5) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Samples/Visual Effect Graph/17.3.0/Learning Templates/Prefabs/VFXG/Contexts & Data Flow.prefab using Guid(4d8073d0ef011eb438162e15c7adf9e5) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '6ca20aa8efdd3e43dd38fa43e02a98e2') in 0.0267004 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 242
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Samples/Scriptable Render Pipeline Core/17.3.0/Common/Scripts/Editor/SamplesShowcaseEditorWindow.cs
+  artifactKey: Guid(928fe22384fe050469e4447de6b4c160) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Samples/Scriptable Render Pipeline Core/17.3.0/Common/Scripts/Editor/SamplesShowcaseEditorWindow.cs using Guid(928fe22384fe050469e4447de6b4c160) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'f5bc89e76876d648de80c2a22747bb29') in 0.011475 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Samples/Scriptable Render Pipeline Core/17.3.0/Common/Scripts/Editor/Unity.RenderPipelines.Core.Samples.Editor.asmdef
+  artifactKey: Guid(b192f5b58f404a041b61eacc6c7c5483) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Samples/Scriptable Render Pipeline Core/17.3.0/Common/Scripts/Editor/Unity.RenderPipelines.Core.Samples.Editor.asmdef using Guid(b192f5b58f404a041b61eacc6c7c5483) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '215a7038b3e5c0eeca95c056d4cf403a') in 0.0125881 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Samples/Visual Effect Graph/17.3.0/Learning Templates/Prefabs/VFXG/Bounds.prefab
+  artifactKey: Guid(6eb8621b47204894c9333821234ac421) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Samples/Visual Effect Graph/17.3.0/Learning Templates/Prefabs/VFXG/Bounds.prefab using Guid(6eb8621b47204894c9333821234ac421) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'a0279bf02ac9cba886973d4cabe5f85f') in 0.0224693 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 245
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Samples/Visual Effect Graph/17.3.0/Learning Templates/Prefabs/VFXG/Capacity.prefab
+  artifactKey: Guid(412c1cdff46ae03479699e5a7f3a04c3) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Samples/Visual Effect Graph/17.3.0/Learning Templates/Prefabs/VFXG/Capacity.prefab using Guid(412c1cdff46ae03479699e5a7f3a04c3) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'e8b7ca9dd9d70f03f192966a4f9b3d80') in 0.0234883 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 245
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Samples/Visual Effect Graph/17.3.0/Learning Templates/Prefabs/VFXG/Collision Advanced.prefab
+  artifactKey: Guid(87f78a0aa2642774ea793b42f5984c6a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Samples/Visual Effect Graph/17.3.0/Learning Templates/Prefabs/VFXG/Collision Advanced.prefab using Guid(87f78a0aa2642774ea793b42f5984c6a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'e410abafb5477eeb9bb8acf2d1d39d5f') in 0.0307266 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 266
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Samples/Visual Effect Graph/17.3.0/Learning Templates/VFX/CollisionSimple.vfx
+  artifactKey: Guid(e075786f47306614894aed1c188c9ce3) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Samples/Visual Effect Graph/17.3.0/Learning Templates/VFX/CollisionSimple.vfx using Guid(e075786f47306614894aed1c188c9ce3) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '219b1603b03b9dd453d8e08621a6ff88') in 0.0168196 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Samples/Scriptable Render Pipeline Core/17.3.0/Common/Prefabs/Info/FloatingInfo.prefab
+  artifactKey: Guid(b9c1dee24f2dbe44991c95981d3a4a19) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Samples/Scriptable Render Pipeline Core/17.3.0/Common/Prefabs/Info/FloatingInfo.prefab using Guid(b9c1dee24f2dbe44991c95981d3a4a19) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'b13d1031ff24df388694c610cdeda1fd') in 0.0252009 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 15
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Samples/Visual Effect Graph/17.3.0/Learning Templates/Textures/TX_Flipbook_Smoke.png
+  artifactKey: Guid(37f531de9fb35a147b95e4bfb66316b5) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Samples/Visual Effect Graph/17.3.0/Learning Templates/Textures/TX_Flipbook_Smoke.png using Guid(37f531de9fb35a147b95e4bfb66316b5) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '151521e3a41db73133f9d33336a45dcb') in 0.0150786 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Samples/Visual Effect Graph/17.3.0/Learning Templates/Shaders/SG_SoundSystem.shadergraph
+  artifactKey: Guid(db2aa7cb030408f44ab44de084092595) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Samples/Visual Effect Graph/17.3.0/Learning Templates/Shaders/SG_SoundSystem.shadergraph using Guid(db2aa7cb030408f44ab44de084092595) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '0fddf655b1c7f9af508223408508099a') in 0.0140425 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 5
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Samples/Visual Effect Graph/17.3.0/Learning Templates/Prefabs/VFXG/Sample Mesh.prefab
+  artifactKey: Guid(3c7f1b206ee1ad14fa10fe4a52e3ac1d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Samples/Visual Effect Graph/17.3.0/Learning Templates/Prefabs/VFXG/Sample Mesh.prefab using Guid(3c7f1b206ee1ad14fa10fe4a52e3ac1d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '44c31b417a305173c6b5edf59030ca87') in 0.0249417 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 246
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Samples/Visual Effect Graph/17.3.0/Learning Templates/Prefabs/VFXG/Multi-Strip Single Burst.prefab
+  artifactKey: Guid(feb637fe12022d74092c99f5541d3ae7) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Samples/Visual Effect Graph/17.3.0/Learning Templates/Prefabs/VFXG/Multi-Strip Single Burst.prefab using Guid(feb637fe12022d74092c99f5541d3ae7) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '704ec4c5249daae36b452e2266210169') in 0.024554 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 249
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Samples/Visual Effect Graph/17.3.0/Learning Templates/Prefabs/VFXG/Multi-Strip SpawnRate.prefab
+  artifactKey: Guid(659767d85eed35e4695b209c06ad1b96) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Samples/Visual Effect Graph/17.3.0/Learning Templates/Prefabs/VFXG/Multi-Strip SpawnRate.prefab using Guid(659767d85eed35e4695b209c06ad1b96) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '1778db263e0dcb5398e1401edeb6513c') in 0.0245551 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 246
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Samples/Visual Effect Graph/17.3.0/Learning Templates/Scenes/URP_VFX_Learning_Templates/LightingData.asset
+  artifactKey: Guid(6ac3409e28fabc040bc1336655b89d18) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Samples/Visual Effect Graph/17.3.0/Learning Templates/Scenes/URP_VFX_Learning_Templates/LightingData.asset using Guid(6ac3409e28fabc040bc1336655b89d18) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '3ed45895fb381d207db9bb2527bfdbf9') in 0.0122838 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Samples/Visual Effect Graph/17.3.0/Learning Templates/Scenes/Scene Resources/VFX_URP_Neutral.asset
+  artifactKey: Guid(cced43bec9a2ba34fab82a55f08e509f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Samples/Visual Effect Graph/17.3.0/Learning Templates/Scenes/Scene Resources/VFX_URP_Neutral.asset using Guid(cced43bec9a2ba34fab82a55f08e509f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '6db2a490692a19d46d3fd3980a41dd2c') in 0.0117379 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Samples/Visual Effect Graph/17.3.0/Learning Templates/Shaders/SG_LitQuad_Xlit.shadergraph
+  artifactKey: Guid(ad75bf70b646f8d4b908ad2c96705e90) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Samples/Visual Effect Graph/17.3.0/Learning Templates/Shaders/SG_LitQuad_Xlit.shadergraph using Guid(ad75bf70b646f8d4b908ad2c96705e90) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'f414e992e37e38b0b67dbf6b18ff8bbb') in 0.0162188 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Samples/Visual Effect Graph/17.3.0/Learning Templates/Textures/TX_UnityLogo_Pack.png
+  artifactKey: Guid(08fea97c6d5986d41ab6867db5811710) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Samples/Visual Effect Graph/17.3.0/Learning Templates/Textures/TX_UnityLogo_Pack.png using Guid(08fea97c6d5986d41ab6867db5811710) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'f6158d29772def298f8b25f51db8424d') in 0.0137966 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/Samples/Visual Effect Graph/17.3.0/Learning Templates/Prefabs/VFXG/Trigger Event on Collide.prefab
+  artifactKey: Guid(e98e03fc6f7f8d04291539d57bfbe5b8) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Samples/Visual Effect Graph/17.3.0/Learning Templates/Prefabs/VFXG/Trigger Event on Collide.prefab using Guid(e98e03fc6f7f8d04291539d57bfbe5b8) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'f75b2f45d3a4c63586fa80c038aebf33') in 0.0302552 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 262
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Samples/Visual Effect Graph/17.3.0/Learning Templates/Textures/TX_Rough_Crayon.png
+  artifactKey: Guid(98f4e238dcb2e4e4baddc3e0e9a70290) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Samples/Visual Effect Graph/17.3.0/Learning Templates/Textures/TX_Rough_Crayon.png using Guid(98f4e238dcb2e4e4baddc3e0e9a70290) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'ff520b4640d22fb605f3b00d30c661bc') in 0.0155775 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Prefabs/SpellProjectile.prefab
+  artifactKey: Guid(2ab75c166c88f0541b9cdbaafa6c73ad) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Prefabs/SpellProjectile.prefab using Guid(2ab75c166c88f0541b9cdbaafa6c73ad) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '47b5277206ba558f864e4eb79d7d3b06') in 0.0223134 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 36
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Samples/Visual Effect Graph/17.3.0/Learning Templates/VFX/Subgraphs/Dart_RectangularPos_to_texIndex.vfxoperator
+  artifactKey: Guid(5b6fe6e71206bd442b856da3b9628b35) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Samples/Visual Effect Graph/17.3.0/Learning Templates/VFX/Subgraphs/Dart_RectangularPos_to_texIndex.vfxoperator using Guid(5b6fe6e71206bd442b856da3b9628b35) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'b0ea34c149f458d3ee7a5f52c0463afb') in 0.0111335 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Samples/Visual Effect Graph/17.3.0/Learning Templates/VFX/Subgraphs/Noise Bezier Outputs.vfxoperator
+  artifactKey: Guid(74ad4091495a97a459ad111a59b55d07) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Samples/Visual Effect Graph/17.3.0/Learning Templates/VFX/Subgraphs/Noise Bezier Outputs.vfxoperator using Guid(74ad4091495a97a459ad111a59b55d07) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'af85c51ef95bce17ecc9267953b5f41f') in 0.0111335 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Samples/Scriptable Render Pipeline Core/17.3.0/Common/TextMesh Pro/Resources/Fonts & Materials/SamplesLit_Inter.shadergraph
+  artifactKey: Guid(f8605069e61e60e4685c8e97ead17a56) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Samples/Scriptable Render Pipeline Core/17.3.0/Common/TextMesh Pro/Resources/Fonts & Materials/SamplesLit_Inter.shadergraph using Guid(f8605069e61e60e4685c8e97ead17a56) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'e00a28233d1ec2ff433acb4d34e21930') in 0.1635282 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/VFX/VFX_Impact_Explosion.vfx
+  artifactKey: Guid(97763e11a125f6a4fbb0ed92233e68e2) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/VFX/VFX_Impact_Explosion.vfx using Guid(97763e11a125f6a4fbb0ed92233e68e2) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'b5676e76e4e8b93e8f8c0c59783d946d') in 0.0225286 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 25
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Samples/Visual Effect Graph/17.3.0/Learning Templates/Prefabs/VFXG/Orient Fixed Axis.prefab
+  artifactKey: Guid(1a6c43a48e42673409aa07b3b71ee93d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Samples/Visual Effect Graph/17.3.0/Learning Templates/Prefabs/VFXG/Orient Fixed Axis.prefab using Guid(1a6c43a48e42673409aa07b3b71ee93d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'b8a694524253f25fab9ce583e6cd1370') in 0.0273537 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 252
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/Samples/Visual Effect Graph/17.3.0/Learning Templates/Thumbnails/Thumb_Contexts & Data Flow.png
+  artifactKey: Guid(7fe3e7cbc6de1f9479895e82ad729e23) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Samples/Visual Effect Graph/17.3.0/Learning Templates/Thumbnails/Thumb_Contexts & Data Flow.png using Guid(7fe3e7cbc6de1f9479895e82ad729e23) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'a30a6e92c8c9b57bf677180ba8f7868d') in 0.0103742 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Samples/Scriptable Render Pipeline Core/17.3.0/Common/Scripts/RequiredSettings/RequiredSettingBase.cs
+  artifactKey: Guid(1aebe677b50378d448d5406479ce8141) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Samples/Scriptable Render Pipeline Core/17.3.0/Common/Scripts/RequiredSettings/RequiredSettingBase.cs using Guid(1aebe677b50378d448d5406479ce8141) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '2fe1e575d2d80120523b0e129a034b78') in 0.0092589 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Samples/Scriptable Render Pipeline Core/17.3.0/Common/Models/NameHolder.fbx
+  artifactKey: Guid(b1ea906854b8cf444a09a59ace7575a8) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Samples/Scriptable Render Pipeline Core/17.3.0/Common/Models/NameHolder.fbx using Guid(b1ea906854b8cf444a09a59ace7575a8) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '0ff0bb1ff2356695923b8009876c7fe1') in 0.0185156 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Samples/Visual Effect Graph/17.3.0/Learning Templates/Prefabs/VFXG/Strip Properties.prefab
+  artifactKey: Guid(0bdb812ac44b5d043a23d6208f6ab07c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Samples/Visual Effect Graph/17.3.0/Learning Templates/Prefabs/VFXG/Strip Properties.prefab using Guid(0bdb812ac44b5d043a23d6208f6ab07c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'd0bcade0aa33803d5de039b229d6af09') in 0.0268762 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 258
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Samples/Visual Effect Graph/17.3.0/Learning Templates/Prefabs/VFXG/Multi-Strips GPU-Event.prefab
+  artifactKey: Guid(01826727a168a334c8d8c8d3286dfcfa) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Samples/Visual Effect Graph/17.3.0/Learning Templates/Prefabs/VFXG/Multi-Strips GPU-Event.prefab using Guid(01826727a168a334c8d8c8d3286dfcfa) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '5da5ee64bbf8ae3be7e1f7f195f96e71') in 0.0271903 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 257
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Samples/Visual Effect Graph/17.3.0/Learning Templates/Shaders/M_SoundSystem_Lamp_URP.mat
+  artifactKey: Guid(d5de769d0da64c44fbfe910acbc063ff) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Samples/Visual Effect Graph/17.3.0/Learning Templates/Shaders/M_SoundSystem_Lamp_URP.mat using Guid(d5de769d0da64c44fbfe910acbc063ff) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '9d42c2974d5bc2583171a58833210715') in 0.0111029 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Samples/Visual Effect Graph/17.3.0/Learning Templates/Prefabs/VFXG/Orient Advanced.prefab
+  artifactKey: Guid(e87a782c1562c324b8cc5d10beb585ad) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Samples/Visual Effect Graph/17.3.0/Learning Templates/Prefabs/VFXG/Orient Advanced.prefab using Guid(e87a782c1562c324b8cc5d10beb585ad) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '43184c421f5da40b505a121905010d42') in 0.0258715 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 251
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Samples/Scriptable Render Pipeline Core/17.3.0/Common/TextMesh Pro/Resources/TMP Settings.asset
+  artifactKey: Guid(ffceb5c5b8bd31f4fb2dc1f37064ebf1) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Samples/Scriptable Render Pipeline Core/17.3.0/Common/TextMesh Pro/Resources/TMP Settings.asset using Guid(ffceb5c5b8bd31f4fb2dc1f37064ebf1) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'dfad97aed57a26d0cf1ac0f53f71dba9') in 0.0247303 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 5
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Samples/Visual Effect Graph/17.3.0/Learning Templates/Shaders/SG_PoolDeep.shadergraph
+  artifactKey: Guid(5cdee0b4997e0e444b286776c32fe9c6) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Samples/Visual Effect Graph/17.3.0/Learning Templates/Shaders/SG_PoolDeep.shadergraph using Guid(5cdee0b4997e0e444b286776c32fe9c6) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '52f81e89a4c2387bf67b6d10b8181621') in 0.0171558 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 6
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Samples/Visual Effect Graph/17.3.0/Learning Templates/VFX/Context&Flow.vfx
+  artifactKey: Guid(4bac8f94c64bb6545880cdfd6b88a375) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Samples/Visual Effect Graph/17.3.0/Learning Templates/VFX/Context&Flow.vfx using Guid(4bac8f94c64bb6545880cdfd6b88a375) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '0133144db7596280d0f5d56bc38a289d') in 0.0191119 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Samples/Visual Effect Graph/17.3.0/Learning Templates/Shaders/SG_Stems.shadergraph
+  artifactKey: Guid(6df259dd21280e54c9b590667515582f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Samples/Visual Effect Graph/17.3.0/Learning Templates/Shaders/SG_Stems.shadergraph using Guid(6df259dd21280e54c9b590667515582f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '8859a33969de575537ac240c380eaaf1') in 0.0140746 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 6
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/VFX/VFX_Charge_Energy.vfx
+  artifactKey: Guid(5adba7028f491ce4b8be3c70f13d4ba2) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/VFX/VFX_Charge_Energy.vfx using Guid(5adba7028f491ce4b8be3c70f13d4ba2) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'b99f3ea3bd409116f4222137f7a763ff') in 0.0156583 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 5
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Samples/Visual Effect Graph/17.3.0/Learning Templates/Prefabs/VFXG/Pivot Advanced.prefab
+  artifactKey: Guid(4efc07ba5e4244f49b669c1195159b31) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Samples/Visual Effect Graph/17.3.0/Learning Templates/Prefabs/VFXG/Pivot Advanced.prefab using Guid(4efc07ba5e4244f49b669c1195159b31) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '18255ace5be9ed28dad84c8e5eb04756') in 0.0290156 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 263
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Samples/Visual Effect Graph/17.3.0/Common/Textures/TX_Chomper_D.tga
+  artifactKey: Guid(e5510d8a0d3aa124fa74c9c7ff9aa011) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Samples/Visual Effect Graph/17.3.0/Common/Textures/TX_Chomper_D.tga using Guid(e5510d8a0d3aa124fa74c9c7ff9aa011) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'a236ec9dbd6745e35549b1eac0a29c9a') in 0.0139045 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Samples/Visual Effect Graph/17.3.0/Learning Templates/Shaders/SG_Unity_Sketch.shadergraph
+  artifactKey: Guid(0414a32c9dddc8f4ba4a7537262a31f4) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Samples/Visual Effect Graph/17.3.0/Learning Templates/Shaders/SG_Unity_Sketch.shadergraph using Guid(0414a32c9dddc8f4ba4a7537262a31f4) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '230d17ccfd1326e1bec7b5a9b518f27e') in 0.0153571 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Samples/Visual Effect Graph/17.3.0/Learning Templates/Thumbnails/Thumb_Sample Texture2D.png
+  artifactKey: Guid(3d351a536d397c14ab916464f774d4f2) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Samples/Visual Effect Graph/17.3.0/Learning Templates/Thumbnails/Thumb_Sample Texture2D.png using Guid(3d351a536d397c14ab916464f774d4f2) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '5fae8e97fadcf0892e5f85b80b2228dd') in 0.0128722 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/Samples/Scriptable Render Pipeline Core/17.3.0/Common/Scripts/SamplesFreeCamera.cs
+  artifactKey: Guid(1fe00788be8798d4b88e0c4d7ef81378) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Samples/Scriptable Render Pipeline Core/17.3.0/Common/Scripts/SamplesFreeCamera.cs using Guid(1fe00788be8798d4b88e0c4d7ef81378) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '1f314c20a6d4851467da0b983cdc26d5') in 0.0105764 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Samples/Visual Effect Graph/17.3.0/Learning Templates/Thumbnails/Thumb_Strip_SpawnRate.png
+  artifactKey: Guid(2d93269a4dab963498f57d6e5b488bb1) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Samples/Visual Effect Graph/17.3.0/Learning Templates/Thumbnails/Thumb_Strip_SpawnRate.png using Guid(2d93269a4dab963498f57d6e5b488bb1) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '8ec682cbe0a5e7ff8498549ea702779f') in 0.0135247 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/Samples/Visual Effect Graph/17.3.0/Learning Templates/Thumbnails/Thumb_FlipBookBlending.png
+  artifactKey: Guid(952793e298fc73447af1c50dbaaeae35) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Samples/Visual Effect Graph/17.3.0/Learning Templates/Thumbnails/Thumb_FlipBookBlending.png using Guid(952793e298fc73447af1c50dbaaeae35) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '5fa28c86b45f85c12e2b7a22d5b7a582') in 0.0116775 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Samples/Scriptable Render Pipeline Core/17.3.0/Common/Materials/Shaders/SamplesBackdrop.shadergraph
+  artifactKey: Guid(137a9d0b49032c544abaff345d2c4f5c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Samples/Scriptable Render Pipeline Core/17.3.0/Common/Materials/Shaders/SamplesBackdrop.shadergraph using Guid(137a9d0b49032c544abaff345d2c4f5c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '1da8dfa102cfc1767a853d7c3f385fae') in 0.0168298 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 25.218227 seconds.
+  path: Assets/InputSystem_Actions.inputactions
+  artifactKey: Guid(289c1b55c9541489481df5cc06664110) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/InputSystem_Actions.inputactions using Guid(289c1b55c9541489481df5cc06664110) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '508b3369213491e6b09785bc7dcae7eb') in 0.0160458 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 20
+
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
