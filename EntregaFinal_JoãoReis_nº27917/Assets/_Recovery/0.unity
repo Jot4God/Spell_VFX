@@ -792,7 +792,7 @@ MonoBehaviour:
   mainSpellPrefab: {fileID: 6331936351277023762, guid: ae2c30c1660dacf45b8102a4ec42dc3f, type: 3}
   castPoint: {fileID: 2005071433}
   projectilePrefab: {fileID: 3099917651900552097, guid: 2ab75c166c88f0541b9cdbaafa6c73ad, type: 3}
-  projectileSpeed: 2.4
+  projectileSpeed: 2.3
   attackKey: 107
   animator: {fileID: 1171434595}
 --- !u!1 &1251807459
@@ -1084,11 +1084,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8651505284161283185, guid: 2ab75c166c88f0541b9cdbaafa6c73ad, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0.912
+      value: 0.8869988
       objectReference: {fileID: 0}
     - target: {fileID: 8651505284161283185, guid: 2ab75c166c88f0541b9cdbaafa6c73ad, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0.291
+      value: -0.40299904
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -1137,7 +1137,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8219272351543389212, guid: ae2c30c1660dacf45b8102a4ec42dc3f, type: 3}
       propertyPath: m_Time
-      value: 2
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8219272351543389212, guid: ae2c30c1660dacf45b8102a4ec42dc3f, type: 3}
       propertyPath: m_Emitting
@@ -1154,14 +1154,6 @@ PrefabInstance:
     - target: {fileID: 8219272351543389212, guid: ae2c30c1660dacf45b8102a4ec42dc3f, type: 3}
       propertyPath: m_ApplyActiveColorSpace
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8219272351543389212, guid: ae2c30c1660dacf45b8102a4ec42dc3f, type: 3}
-      propertyPath: m_Parameters.textureMode
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 8219272351543389212, guid: ae2c30c1660dacf45b8102a4ec42dc3f, type: 3}
-      propertyPath: m_Parameters.textureScale.x
-      value: 0.8
       objectReference: {fileID: 0}
     - target: {fileID: 8219272351543389212, guid: ae2c30c1660dacf45b8102a4ec42dc3f, type: 3}
       propertyPath: m_Parameters.widthMultiplier
@@ -1181,7 +1173,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8219272351543389212, guid: ae2c30c1660dacf45b8102a4ec42dc3f, type: 3}
       propertyPath: m_Parameters.widthCurve.m_Curve.Array.data[1].value
-      value: 0.6065674
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8219272351543389212, guid: ae2c30c1660dacf45b8102a4ec42dc3f, type: 3}
       propertyPath: m_Parameters.widthCurve.m_Curve.Array.data[2].value
@@ -1189,11 +1181,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8527793987448534893, guid: ae2c30c1660dacf45b8102a4ec42dc3f, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -76.568
+      value: -76.476
       objectReference: {fileID: 0}
     - target: {fileID: 8527793987448534893, guid: ae2c30c1660dacf45b8102a4ec42dc3f, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 26.495
+      value: 26.415
       objectReference: {fileID: 0}
     - target: {fileID: 8527793987448534893, guid: ae2c30c1660dacf45b8102a4ec42dc3f, type: 3}
       propertyPath: m_LocalPosition.z
