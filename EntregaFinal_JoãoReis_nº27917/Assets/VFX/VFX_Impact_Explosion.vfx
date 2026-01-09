@@ -267,7 +267,7 @@ MonoBehaviour:
   categories: []
   uiBounds:
     serializedVersion: 2
-    x: -0
+    x: 0
     y: -687
     width: 6139
     height: 2234
